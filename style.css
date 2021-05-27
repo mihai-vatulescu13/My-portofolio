@@ -1,0 +1,451 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e8ffff;
+}
+
+.main-container {
+  height: 100vh;
+}
+
+.name-portofolio-author {
+  font-family: oswald;
+  font-weight: 200;
+  font-size: 70px;
+  text-align: center;
+  color: #4bacf6;
+  cursor: pointer;
+}
+
+.center-elem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-text-desc {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-date-created {
+  font-family: lato;
+  font-size: 1rem;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  background-color: rgb(248, 229, 166);
+  width: 60vw;
+  border-radius: 5px;
+}
+
+.myPicture {
+  width: 200px;
+  height: auto;
+  margin: 20px;
+  box-shadow: rgb(75, 75, 75) 10px 10px 15px;
+  border-radius: 10px;
+}
+
+.picture {
+  padding: 20px;
+  margin-left: 15px;
+}
+
+.description {
+  padding-top: 0;
+}
+
+.about-me {
+  font-family: lato;
+  font-size: 2.2rem;
+  font-weight: 200;
+  width: 60vw;
+  background-color: rgb(87, 87, 87);
+  text-align: center;
+  color: whitesmoke;
+  padding: 0.6em;
+  margin-top: 0;
+}
+
+.main-description {
+  font-family: lato;
+  padding: 60px;
+  font-size: 1.2rem;
+  color: rgb(75, 75, 75);
+  font-weight: 200;
+}
+
+.title-container {
+  margin: 30px;
+  padding: 30px;
+}
+
+.generalContainer {
+  background-color: whitesmoke;
+  width: 60%;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.top-section {
+  height: 100vh;
+  width: 100vw;
+  background-color: whitesmoke;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 0;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: row;
+  border: 0px solid gray;
+  margin: 1em;
+  padding: 1em;
+  background-color: rgb(230, 230, 230);
+  border-radius: 5px;
+}
+
+.desc-title {
+  font-family: lato;
+  font-size: 2rem;
+  margin: 1em;
+  font-weight: 200;
+}
+
+.desc-title-background {
+  background-color: rgb(255, 198, 12);
+  margin-top: 0;
+  padding-top: 0;
+  width: 60vw;
+}
+
+.project-img {
+  width: 220px;
+  height: auto;
+}
+
+.project-description {
+  font-family: lato;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: rgb(63, 63, 63);
+  font-weight: 200;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.author,
+.date-created {
+  font-family: montserrat;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+
+  background-color: whitesmoke;
+  width: 60vw;
+  padding: 0px 30px 30px 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.education-cards {
+  display: flex;
+  flex-direction: row;
+
+  width: 55vw;
+  margin: 20px;
+}
+
+.education-card {
+  padding: 10px;
+  margin: 10px;
+}
+
+.education {
+  font-family: lato;
+  font-size: 2rem;
+  padding: 10px;
+  font-weight: 200;
+  padding-top: 0;
+  background-color: rgb(255, 191, 102);
+  width: 60vw;
+  text-align: center;
+  padding: 0.6em;
+}
+
+.highschool {
+  font-family: lato;
+}
+
+.profile,
+.end-date {
+  font-family: lato;
+  font-weight: 200;
+  padding: 5px;
+  font-size: 1.1rem;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+
+  background-color: whitesmoke;
+  width: 60vw;
+  padding: 0px 30px 30px 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.lang-competences {
+  display: flex;
+  flex-direction: row;
+}
+
+.lang-details {
+  font-family: lato;
+}
+
+.writing,
+.reading,
+.speaking {
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 200;
+}
+
+.languages {
+  width: 60vw;
+  background-color: rgb(16, 186, 202);
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
+  padding: 0.6em;
+}
+
+.languages-section {
+  padding-top: 0;
+  padding-bottom: 30px;
+  margin-top: 0;
+}
+
+.project-link {
+  font-family: lato;
+  font-size: 1rem;
+  color: #007ad8;
+  font-weight: 200;
+  width: 170px;
+  margin: 0.7em;
+}
+
+.projects-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container {
+  background-color: rgb(87, 87, 87);
+  margin: 0;
+}
+
+.contact-logo {
+  width: 50px;
+}
+
+.contact-platform-name {
+  font-size: 1rem;
+  color: whitesmoke;
+  margin: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: lato;
+}
+
+.contact-platform-name:hover {
+  color: rgb(255, 191, 102);
+  text-decoration: none;
+}
+
+.footer-name-author,
+.date-created {
+  color: white;
+  font-size: 1.15rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: lato;
+}
+
+.color-text {
+  color: whitesmoke;
+}
+
+.contact-me {
+  color: whitesmoke;
+  font-size: 1.15rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: lato;
+}
+
+.contact-item {
+  margin: 10px;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(87, 87, 87);
+}
+
+.author-details {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 10px;
+}
+
+.nav-link:hover {
+  color: whitesmoke;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: auto;
+}
+
+@media all and (max-width: 800px) {
+  .contact-logo {
+    width: 30px;
+    margin: 0px;
+  }
+
+  .footer-name-author,
+  .date-created {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .contact-me {
+    /* font-family: indie flower; */
+    color: whitesmoke;
+    font-size: 14px;
+  }
+
+  .contact-platform-name {
+    font-size: 1rem;
+    color: whitesmoke;
+    margin: 10px;
+    text-decoration: none;
+  }
+
+  .contact-item {
+    margin: 0px;
+  }
+
+  .contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-details > ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-details > ul > li {
+    padding: 5px;
+  }
+}
+
+/* media query section for responsive screen mode: */
+@media (max-width: 1000px) {
+  .picture-text-desc {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container1,
+  .about-me {
+    width: 85vw;
+  }
+
+  .main-description {
+    padding: 30px;
+    font-size: 1rem;
+  }
+
+  .picture {
+    padding: 10px;
+  }
+
+  .generalContainer,
+  .desc-title-background,
+  .container3,
+  .education {
+    width: 85vw;
+  }
+
+  .container4 {
+    width: 85vw;
+  }
+
+  .education-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lang-competences {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-card {
+    display: flex;
+    flex-direction: row;
+    border: 0px solid gray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+  }
+
+  .project-description {
+    font-size: 1rem;
+  }
+}
